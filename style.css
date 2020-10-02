@@ -1,0 +1,84 @@
+body:after {
+    content : "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(üniversite.png);
+    width: 100%;
+    height: 100%;
+    opacity : 0.1;
+    z-index: -1;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.header
+{
+    height: 100vh;
+}
+
+.navbar-style
+{
+    box-shadow: 0 5px 10px #efefef;
+
+}
+.logo
+{
+    height: 72px;
+    padding: 2px 10px;
+
+}
+.icon-bar
+{
+    background: darkorange;
+}
+li a
+{
+    color: #333;
+}
+.name
+{
+    font-family: Times;
+    font-style: italic;
+}
+.name1
+{
+    font-family: Times;
+    font-style: italic;
+    font-size: 24px;
+}
+.name2
+{
+    font-family: Times;
+    font-style: italic;
+    font-size: 24px;
+}
+nav {
+    font-family: Times;
+    font-style: italic;
+    font-size: 16px;
+    color: indigo;
+}
+a.btn
+{
+    margin: 30px 10px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+}
+a.btn-first
+{
+    background-color: cornflowerblue;
+    color: #fff;
+}
+a.btn-second {
+    background-color: cornflowerblue;
+    color: #fff;
+}
+a.btn-third {
+    background-color: cornflowerblue;
+    color: #fff;
+}
+
